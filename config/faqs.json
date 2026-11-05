@@ -1,0 +1,122 @@
+[
+  {
+    "id": "FAQ-01",
+    "de": {
+      "question": "Was bietet Fluxia Consulting an?",
+      "answer": "Fluxia Consulting bietet intelligente Websites, Website-Relaunch, KI-Text- und Sprachassistenten sowie Prozessautomatisierung an."
+    },
+    "fr": {
+      "question": "Que propose Fluxia Consulting ?",
+      "answer": "Fluxia Consulting propose des sites web intelligents, la refonte de sites, des assistants IA écrits et vocaux et l’automatisation de processus tels que les demandes clients, documents et suivis."
+    },
+    "en": {
+      "question": "What does Fluxia Consulting offer?",
+      "answer": "Intelligent websites, website redesign, text and voice AI assistants, and business process automation."
+    }
+  },
+  {
+    "id": "FAQ-02",
+    "de": {
+      "question": "Arbeiten Sie mit kleinen Unternehmen?",
+      "answer": "Ja, insbesondere mit Kleinstunternehmen, KMU, Handwerk, Handel, Gastronomie und Dienstleistern."
+    },
+    "fr": {
+      "question": "Travaillez-vous avec les petites entreprises ?",
+      "answer": "Oui. L’offre est conçue notamment pour les TPE, PME, artisans, commerces, restaurants et entreprises de services."
+    },
+    "en": {
+      "question": "Do you work with small businesses?",
+      "answer": "Yes, especially microbusinesses, SMEs, trades, retailers, hospitality and service businesses."
+    }
+  },
+  {
+    "id": "FAQ-03",
+    "de": {
+      "question": "In welchen Ländern bieten Sie Leistungen an?",
+      "answer": "In Deutschland, Frankreich und Belgien sowie auf Anfrage in Nachbarländern, auch digital. Der Kontaktstandort ist Wuppertal."
+    },
+    "fr": {
+      "question": "Dans quels pays intervenez-vous ?",
+      "answer": "En Allemagne, France et Belgique, ainsi que dans les pays voisins sur demande, notamment à distance. Le contact est basé à Wuppertal."
+    },
+    "en": {
+      "question": "Which countries do you serve?",
+      "answer": "Germany, France and Belgium, plus neighbouring countries on request, including remotely. The contact location is Wuppertal."
+    }
+  },
+  {
+    "id": "FAQ-04",
+    "de": {
+      "question": "Was kostet das?",
+      "answer": "Die Kosten hängen von Umfang und Schnittstellen ab. Bitte fragen Sie ein individuelles Angebot an."
+    },
+    "fr": {
+      "question": "Quel est le prix ?",
+      "answer": "Les prix dépendent du besoin et des intégrations. Contactez-nous pour discuter du projet et demander un devis."
+    },
+    "en": {
+      "question": "How much does it cost?",
+      "answer": "Pricing depends on scope and integrations. Please contact us for a tailored quote."
+    }
+  },
+  {
+    "id": "FAQ-05",
+    "de": {
+      "question": "Kann ich einen Termin buchen?",
+      "answer": "Sie können einen Termin anfragen. Bestätigt ist er erst nach Rückmeldung des Buchungssystems oder Teams."
+    },
+    "fr": {
+      "question": "Puis-je réserver un rendez-vous ?",
+      "answer": "Vous pouvez demander un rendez-vous. Une réservation est confirmée uniquement après validation par le système connecté ou par l’équipe."
+    },
+    "en": {
+      "question": "Can I book a meeting?",
+      "answer": "You can request a meeting. It is confirmed only after the booking system or team confirms it."
+    }
+  },
+  {
+    "id": "FAQ-06",
+    "de": {
+      "question": "Kann ein KI-Agent Kundenfragen beantworten?",
+      "answer": "Ja, ein Assistent kann häufige Fragen beantworten und komplexe Anliegen an Menschen weiterleiten."
+    },
+    "fr": {
+      "question": "Un agent IA peut-il répondre aux clients ?",
+      "answer": "Oui, un assistant peut être configuré pour traiter les questions courantes et transmettre les demandes complexes à un humain."
+    },
+    "en": {
+      "question": "Can an AI agent answer customer questions?",
+      "answer": "Yes, it can be configured to handle common questions and escalate complex issues."
+    }
+  },
+  {
+    "id": "FAQ-07",
+    "de": {
+      "question": "Ist die Lösung DSGVO-konform?",
+      "answer": "Das hängt vom Anwendungsfall, den Daten, Anbietern und Einstellungen ab. Eine pauschale Garantie ist nicht möglich; Prüfung und Freigabe sind erforderlich."
+    },
+    "fr": {
+      "question": "Est-ce conforme au RGPD ?",
+      "answer": "La conformité dépend du cas d’usage, des données, des fournisseurs et des configurations. Nous ne garantissons pas une conformité automatique : une analyse et une validation adaptées sont nécessaires."
+    },
+    "en": {
+      "question": "Is it GDPR compliant?",
+      "answer": "Compliance depends on use case, data, vendors and configuration. It is not automatic; assessment and validation are required."
+    }
+  },
+  {
+    "id": "FAQ-08",
+    "de": {
+      "question": "Wie erreiche ich Fluxia?",
+      "answer": "Per E-Mail an fluxia@fluxia-consulting.company oder telefonisch unter +49 1575 0625673."
+    },
+    "fr": {
+      "question": "Comment contacter Fluxia ?",
+      "answer": "Écrivez à fluxia@fluxia-consulting.company ou appelez le +49 1575 0625673."
+    },
+    "en": {
+      "question": "How can I contact Fluxia?",
+      "answer": "Email fluxia@fluxia-consulting.company or call +49 1575 0625673."
+    }
+  }
+]

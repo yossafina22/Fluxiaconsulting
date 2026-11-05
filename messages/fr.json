@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "siteName": "Fluxia Consulting",
+    "tagline": "Solutions IA et automatisation pour TPE/PME"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "solutions": "Solutions",
+    "industries": "Secteurs",
+    "demos": "Démonstrations",
+    "about": "À propos",
+    "contact": "Contact",
+    "book": "Prendre rendez-vous",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "languageLabel": "Langue"
+  },
+  "common": {
+    "readMore": "En savoir plus",
+    "backHome": "Retour à l'accueil",
+    "requestCall": "Demander un premier échange",
+    "contactUs": "Nous contacter",
+    "demoLabel": "Exemple",
+    "draftLabel": "Brouillon — validation juridique en attente",
+    "requiredField": "Champ requis",
+    "optional": "optionnel",
+    "loading": "Chargement…",
+    "send": "Envoyer",
+    "sending": "Envoi en cours…"
+  },
+  "home": {
+    "metaTitle": "Fluxia Consulting — IA, sites intelligents et automatisation pour TPE/PME",
+    "metaDescription": "Fluxia Consulting conçoit des sites intelligents, des agents IA et des automatisations pour les TPE/PME en Allemagne, France, Belgique et pays voisins.",
+    "hero": {
+      "badge": "Solutions IA pour TPE et PME",
+      "title": "Moins de tâches répétitives. Plus de temps pour votre activité.",
+      "subtitle": "Nous automatisons les demandes clients, créons des sites intelligents et connectons vos processus, simplement et concrètement.",
+      "ctaPrimary": "Demander un premier échange",
+      "ctaSecondary": "Découvrir les solutions",
+      "benefit1": "Mise en place rapide",
+      "benefit2": "Respectueux des données",
+      "benefit3": "Orienté résultats",
+      "sidePanelTitle": "Ce que nous faisons pour vous",
+      "sidePanel": [
+        "Agents IA et relation client",
+        "Sites intelligents (chatbot & réservation inclus)",
+        "Refonte de site (modernisation & optimisation)",
+        "Automatisation (e-mails, documents, processus)",
+        "Leads & réactivation client (suivi & rapports)"
+      ]
+    },
+    "pillars": {
+      "title": "Nos solutions pour votre entreprise",
+      "subtitle": "Des technologies concrètes qui automatisent vos processus, servent vos clients et vous font gagner du temps."
+    },
+    "solutionsHighlight": {
+      "title": "Cinq automatisations concrètes",
+      "subtitle": "Commencez par une solution qui résout un problème réel du quotidien."
+    },
+    "process": {
+      "title": "Comment nous travaillons",
+      "step1Title": "Premier échange",
+      "step1Desc": "Nous écoutons, comprenons votre contexte et vérifions ce qui est réaliste.",
+      "step2Title": "Cadrage & proposition",
+      "step2Desc": "Un plan d'action clair, les coûts et un devis compréhensible.",
+      "step3Title": "Réalisation & accompagnement",
+      "step3Desc": "Nous construisons, testons et formons — avec une responsabilité claire et une passation."
+    },
+    "industries": {
+      "title": "Les secteurs que nous comprenons",
+      "subtitle": "Exemples de solutions possibles — pas une liste de références."
+    },
+    "international": {
+      "title": "Nous sommes à vos côtés — en Allemagne, France, Belgique et dans les pays voisins.",
+      "point1": "Conseil et réalisation en allemand, français et anglais",
+      "point2": "Sur place ou à distance",
+      "point3": "Pour TPE, PME et entreprises en croissance"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "cta": "Une autre question ? Écrivez-nous."
+    },
+    "finalCta": {
+      "title": "Prêt à alléger votre quotidien ?",
+      "subtitle": "Demandez un premier échange sans engagement. Nous revenons vers vous rapidement.",
+      "primary": "Demander un premier échange",
+      "secondary": "Discuter avec l'assistant"
+    }
+  },
+  "pillars": {
+    "intelligent-websites": {
+      "name": "Sites web intelligents",
+      "short": "Des sites modernes avec chatbot, formulaires et prise de rendez-vous.",
+      "long": "Nous développons des sites professionnels et responsives qui traitent les demandes, prennent des rendez-vous et dialoguent avec vos outils — dès que les intégrations sont configurées.",
+      "problem": "Un site classique est souvent une vitrine : les visiteurs se manifestent peu, les demandes se perdent et les réponses manuelles prennent du temps.",
+      "solution": "Fluxia crée des sites qui répondent aux visiteurs, qualifient les prospects et préparent les rendez-vous. Le tout dans vos trois langues de marché.",
+      "exampleTitle": "Exemple d'application — Entreprise de services",
+      "exampleBody": "Un prestataire régional remplace son formulaire par une page intelligente avec chatbot et demande de rendez-vous. Fluxia configure les questions, réponses et règles de transfert.",
+      "steps": [
+        "Analyse de vos audiences et principales questions",
+        "Design, développement et connexion à l'e-mail ou au CRM",
+        "Test, formation et optimisation continue"
+      ],
+      "limits": "Les réponses du chatbot reposent sur votre base de connaissances validée. En cas d'incertitude, la demande est transmise à un humain."
+    },
+    "website-redesign": {
+      "name": "Refonte de site",
+      "short": "Modernisation, mobile, performance, accessibilité et SEO.",
+      "long": "Nous modernisons les sites existants : chargement plus rapide, offres claires, accessibilité et structure qui atteint vos clients comme les moteurs de recherche.",
+      "problem": "Les anciens sites sont lents, difficiles sur mobile et ne reflètent plus votre offre actuelle.",
+      "solution": "Nous gardons ce qui fonctionne et remplaçons ce qui freine. Contenus neufs, structure claire, technologie moderne.",
+      "exampleTitle": "Exemple d'application — Artisan",
+      "exampleBody": "Un artisan modernise son site, ajoute une galerie photos et un formulaire avec horaire de rappel, visible sur smartphone.",
+      "steps": [
+        "Audit du site existant",
+        "Nouveau design, nouveaux contenus, mise en œuvre technique",
+        "Mesure des résultats et ajustement"
+      ],
+      "limits": "Les classements dans les moteurs dépendent de nombreux facteurs ; nous ne garantissons pas de position, mais des bases techniques solides."
+    },
+    "content-creation": {
+      "name": "Contenu & Vidéo",
+      "short": "Création automatisée de textes, posts et vidéos courtes.",
+      "long": "Nous vous accompagnons dans la production régulière de contenus pour votre site, votre newsletter ou vos réseaux. Chaque publication est validée par vous.",
+      "problem": "Produire régulièrement du contenu coûte du temps qui manque au quotidien.",
+      "solution": "Des flux pour générer des propositions de textes, choisir des visuels et préparer des vidéos courtes — avec validation humaine avant publication.",
+      "exampleTitle": "Exemple d'application — Restaurant",
+      "exampleBody": "Un restaurant reçoit chaque semaine des publications préparées sur ses offres et horaires, qu'il n'a plus qu'à valider.",
+      "steps": [
+        "Définir thèmes, ton et rythme",
+        "Propositions automatiques et validation",
+        "Publication sur les canaux souhaités"
+      ],
+      "limits": "Aucun contenu n'est publié sans votre validation. Nous n'inventons ni offre ni prix."
+    },
+    "ai-agents": {
+      "name": "Agents IA & accueil",
+      "short": "Assistants écrits et vocaux disponibles en continu.",
+      "long": "Des assistants chat et vocaux répondent aux questions fréquentes, qualifient les demandes et transmettent à un humain quand c'est sensible.",
+      "problem": "Les demandes arrivent le soir, le week-end ou quand vous êtes chez un client. Beaucoup n'attendent pas la réponse.",
+      "solution": "Un assistant prend la demande, répond aux questions standard et rassemble les informations utiles pour votre rappel.",
+      "exampleTitle": "Exemple d'application — Hôtel",
+      "exampleBody": "Un hôtel répond automatiquement aux questions sur les chambres, le petit-déjeuner et le parking, et transmet les demandes de réservation à la réception.",
+      "steps": [
+        "Construction de la base de connaissances et des règles",
+        "Intégration au site et éventuellement à la téléphonie",
+        "Suivi, amélioration, escalade humaine"
+      ],
+      "limits": "L'assistant indique toujours qu'il est une IA. Il ne donne pas de prix non confirmés ni de créneaux non vérifiés par le système."
+    },
+    "business-automation": {
+      "name": "Automatisation des processus",
+      "short": "E-mails, documents, commandes, stocks, rapports — tout automatisé.",
+      "long": "Nous connectons vos outils et automatisons les tâches répétitives — du devis à la facture, du lead au suivi.",
+      "problem": "Les données sont ressaisies, les e-mails traités à la main, les rapports compilés en fin de mois.",
+      "solution": "Fluxia identifie les blocages et construit des automatisations qui font parler vos outils entre eux.",
+      "exampleTitle": "Exemple d'application — Commerce",
+      "exampleBody": "Un commerçant reçoit un rapport quotidien sur ses commandes, stocks et retours, consolidé depuis ses outils existants.",
+      "steps": [
+        "Inventaire des processus et outils",
+        "Conception, développement, tests",
+        "Transfert avec documentation et formation"
+      ],
+      "limits": "Les automatisations dépendent de vos outils existants et de leurs interfaces. Tout n'est pas techniquement ou juridiquement possible."
+    }
+  },
+  "solutions": {
+    "instant-lead-response": {
+      "name": "Réponse instantanée aux leads",
+      "short": "Confirmer, qualifier et router immédiatement toute nouvelle demande.",
+      "long": "Chaque nouvelle demande reçoit une confirmation immédiate. L'assistant pose les bonnes questions et transmet la demande qualifiée à la bonne personne.",
+      "problem": "Les prospects comparent les fournisseurs en quelques minutes. Qui répond en premier gagne souvent le dossier.",
+      "solution": "Accusé de réception automatique, questions structurées, notification à l'équipe — 24h/24, sans promettre une disponibilité humaine que vous ne pouvez pas tenir.",
+      "steps": [
+        "Capturer la demande",
+        "Qualifier et prioriser",
+        "Transmettre ou préparer le rendez-vous"
+      ],
+      "limits": "L'assistant répond uniquement sur la base d'informations validées. Les sujets sensibles sont transmis à un humain."
+    },
+    "document-processing": {
+      "name": "Traitement de documents",
+      "short": "Extraire, classer et préparer la validation des factures et bons.",
+      "long": "Les documents sont lus automatiquement, les données extraites, vérifiées et préparées pour la validation humaine. Les paiements ne sont jamais automatiques.",
+      "problem": "La saisie manuelle des justificatifs coûte des heures par semaine et génère des erreurs.",
+      "solution": "Fluxia met en place un circuit de traitement : scan ou e-mail → extraction → contrôle → validation par votre équipe.",
+      "steps": [
+        "Reconnaissance et extraction",
+        "Rapprochement avec vos données",
+        "Validation humaine et archivage"
+      ],
+      "limits": "Aucun paiement n'est déclenché sans validation humaine. Les données sensibles relèvent de votre politique de confidentialité."
+    },
+    "follow-up-sequences": {
+      "name": "Séquences de suivi",
+      "short": "Suivi structuré, consentement et droit d'opposition respectés.",
+      "long": "Rappels, relances personnalisées et étapes CRM — avec respect du consentement et de l'opt-out.",
+      "problem": "De nombreuses offres restent sans suite, faute de relance.",
+      "solution": "Un processus de suivi qui vous fait gagner du temps tout en respectant les règles légales.",
+      "steps": [
+        "Définir le rythme de relance",
+        "Préparer les messages",
+        "Envoyer avec contrôle et reporting"
+      ],
+      "limits": "Les messages commerciaux ne sont envoyés qu'aux destinataires légalement autorisés."
+    },
+    "customer-reactivation": {
+      "name": "Réactivation client",
+      "short": "Segmenter les contacts inactifs et — si autorisé — les réactiver.",
+      "long": "Analyse de votre base, segmentation et préparation de campagnes adaptées. Uniquement avec base légale confirmée.",
+      "problem": "Beaucoup d'anciens clients ne reviennent pas faute de contact.",
+      "solution": "Nous préparons des campagnes adaptées à vos données et vos objectifs — dans le respect de la confidentialité.",
+      "steps": [
+        "Vérifier la base légale",
+        "Segmenter et composer le message",
+        "Envoyer et mesurer les résultats"
+      ],
+      "limits": "Aucune campagne n'est lancée sans votre validation et sans vérification des consentements."
+    },
+    "internal-reporting": {
+      "name": "Rapports internes",
+      "short": "Ventes, stocks, service — des tableaux clairs à partir de vos sources.",
+      "long": "Consolidation de vos données en rapports simples et fiables. Chiffres calculés de manière déterministe ; sources traçables.",
+      "problem": "Les rapports se construisent en fin de mois à partir de tableurs et de mémoire — source d'erreurs.",
+      "solution": "Fluxia connecte vos sources et livre des tableaux à jour, comparables.",
+      "steps": [
+        "Définir les sources et indicateurs",
+        "Production automatique et diffusion",
+        "Ajustement dans le temps"
+      ],
+      "limits": "Les tableaux de bord valent ce que valent vos données sources."
+    }
+  },
+  "industries": {
+    "pageTitle": "Secteurs d'activité",
+    "intro": "Pour chaque secteur, nous décrivons une solution type — pas une référence client.",
+    "restaurants": {
+      "name": "Restaurants",
+      "desc": "Réservations en ligne, réponses aux questions fréquentes, mises à jour de menu et rappels."
+    },
+    "hotels": {
+      "name": "Hôtels",
+      "desc": "Demandes de disponibilité, accueil multilingue, suivi avant et après séjour."
+    },
+    "trades": {
+      "name": "Artisans",
+      "desc": "Qualifier les demandes de devis, planifier les rappels, suivre jusqu'à la facture."
+    },
+    "retail": {
+      "name": "Commerces",
+      "desc": "Rapports commandes et stocks, gestion des réclamations, notifications clients."
+    },
+    "services": {
+      "name": "Services",
+      "desc": "Gestion des rendez-vous, rappels, génération de documents simples."
+    },
+    "logistics": {
+      "name": "Logistique",
+      "desc": "Statuts, reporting, détection précoce des écarts."
+    }
+  },
+  "demos": {
+    "pageTitle": "Démonstrations",
+    "intro": "Ces démonstrations illustrent nos solutions. Les données et réponses sont synthétiques.",
+    "chatTitle": "Assistant conversationnel",
+    "chatDesc": "Notre chatbot en bas à droite répond aux questions sur Fluxia. Toutes les réponses viennent de la base de connaissances publiée.",
+    "leadsTitle": "Qualification de leads",
+    "leadsDesc": "Exemples de champs qu'un assistant capture avant qu'un humain ne prenne le relais.",
+    "documentTitle": "Extraction de document",
+    "documentDesc": "Un document synthétique est lu et les données affichées de manière structurée — aucune donnée client réelle.",
+    "reportTitle": "Rapport court",
+    "reportDesc": "Un rapport d'exemple à partir de ventes et de stocks fictifs.",
+    "disclaimer": "Aucune démonstration n'envoie de vrai message ni ne déclenche de vraie action."
+  },
+  "about": {
+    "pageTitle": "À propos de Fluxia Consulting",
+    "intro": "Fluxia Consulting accompagne les TPE et PME dans leur transformation digitale grâce à l'IA, aux sites intelligents et à l'automatisation.",
+    "missionTitle": "Notre mission",
+    "mission": "Des solutions concrètes qui vous font gagner du temps — sans fausses promesses ni jargon.",
+    "contactTitle": "Votre interlocuteur",
+    "founder": "Contact",
+    "areaTitle": "Où nous intervenons",
+    "area": "Siège : Wuppertal, Allemagne. Nous intervenons en Allemagne, France, Belgique et dans les pays voisins — sur place ou à distance."
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "intro": "Décrivez votre besoin en quelques phrases. Nous revenons vers vous par e-mail ou téléphone.",
+    "fields": {
+      "name": "Nom et prénom",
+      "company": "Entreprise",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "country": "Pays",
+      "sector": "Secteur d'activité",
+      "service": "Service recherché",
+      "message": "Description du projet",
+      "preferredContact": "Moyen de contact préféré",
+      "consent": "J'ai lu la politique de confidentialité et j'accepte le traitement de mes données pour la réponse.",
+      "website": "Site web (honeypot — laisser vide)"
+    },
+    "services": {
+      "intelligent-websites": "Site intelligent",
+      "website-redesign": "Refonte de site",
+      "ai-chat": "Chatbot IA",
+      "ai-voice": "Assistant vocal IA",
+      "automation": "Automatisation",
+      "consulting": "Conseil en IA",
+      "other": "Autre demande"
+    },
+    "preferredContactOptions": {
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "either": "Les deux"
+    },
+    "submit": "Envoyer le message",
+    "success": "Merci ! Votre message nous est bien parvenu.",
+    "errorGeneric": "Un problème est survenu. Merci de réessayer ou de nous écrire directement par e-mail.",
+    "demoWarning": "Mode démonstration : votre message a été enregistré dans les logs serveur, mais aucun e-mail n'a été envoyé. Configurez RESEND_API_KEY pour activer l'envoi réel.",
+    "altContact": "Ou directement : {email} · {phone}"
+  },
+  "book": {
+    "pageTitle": "Demander un rendez-vous",
+    "intro": "Aucun calendrier n'est connecté pour l'instant. Nous revenons vers vous pour confirmer un créneau.",
+    "fields": {
+      "name": "Nom",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "preferredDate": "Date / horaire souhaité",
+      "topic": "Sujet du rendez-vous",
+      "consent": "J'accepte le traitement de mes données pour la réponse."
+    },
+    "submit": "Envoyer la demande",
+    "success": "Merci — nous revenons vers vous pour confirmer.",
+    "noticeNoCalendar": "Attention : il s'agit d'une demande, pas d'une confirmation. Le rendez-vous n'est confirmé qu'après notre réponse."
+  },
+  "legal": {
+    "impressumTitle": "Mentions légales",
+    "privacyTitle": "Politique de confidentialité",
+    "cookiesTitle": "Préférences cookies",
+    "draftNotice": "Ce texte est un brouillon. Une relecture juridique professionnelle est requise avant publication.",
+    "impressumBody": "Fluxia Consulting · Raoul Fotso · Schönebecker Straße 44, 42283 Wuppertal, Allemagne · Téléphone : +49 1575 0625673 · E-mail : fluxia@fluxia-consulting.company. Numéro de TVA, immatriculation et informations professionnelles restent à compléter.",
+    "privacyBody": "Nous traitons les données personnelles conformément au RGPD, exclusivement pour répondre à vos demandes. La version complète (bases légales, durées de conservation, sous-traitants comme le service e-mail ou le fournisseur de chatbot, droits des personnes) est en cours de préparation et sera validée par un professionnel avant publication.",
+    "cookiesBody": "Ce site n'utilise pas de cookies non essentiels. L'assistant vocal IA n'est chargé qu'après votre consentement explicite, car il implique un service externe."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "legalNav": "Informations légales",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact"
+  },
+  "chat": {
+    "openLabel": "Ouvrir l'assistant Fluxia",
+    "closeLabel": "Fermer l'assistant Fluxia",
+    "title": "Assistant Fluxia",
+    "subtitle": "Chat & voix (DE / FR / EN)",
+    "placeholder": "Posez votre question…",
+    "send": "Envoyer",
+    "greeting": "Bonjour ! Je suis l'assistant IA de Fluxia Consulting. Comment puis-je vous aider ?",
+    "demoBadge": "Mode démo (FAQ)",
+    "liveBadge": "En ligne (IA)",
+    "errorFallback": "Je ne suis pas disponible pour le moment. Écrivez-nous à fluxia@fluxia-consulting.company.",
+    "unknownAnswer": "Je n'ai pas la réponse à cette question. Contactez-nous directement : fluxia@fluxia-consulting.company ou +49 1575 0625673."
+  },
+  "voice": {
+    "button": "Parler à l'assistant",
+    "unavailable": "Assistant vocal non configuré",
+    "consentTitle": "Activer l'assistant vocal",
+    "consentBody": "L'assistant vocal utilise ElevenLabs, un service externe. Avec votre accord, nous chargeons le widget et demandons l'accès au microphone. Vous pouvez revenir au chat texte à tout moment.",
+    "accept": "Accepter et démarrer",
+    "decline": "Annuler"
+  },
+  "cookies": {
+    "bannerTitle": "Votre consentement",
+    "bannerBody": "Ce site utilise uniquement les fonctions nécessaires. Votre consentement pour l'assistant vocal IA est demandé séparément.",
+    "accept": "Compris",
+    "manage": "Gérer les préférences"
+  },
+  "faqs": [
+    {
+      "q": "Que propose Fluxia Consulting ?",
+      "a": "Des sites web intelligents, la refonte de sites, des assistants IA écrits et vocaux et l'automatisation de processus."
+    },
+    {
+      "q": "Travaillez-vous avec les petites entreprises ?",
+      "a": "Oui. L'offre est conçue notamment pour les TPE, PME, artisans, commerces, restaurants et entreprises de services."
+    },
+    {
+      "q": "Dans quels pays intervenez-vous ?",
+      "a": "En Allemagne, France et Belgique, ainsi que dans les pays voisins sur demande, notamment à distance. Le contact est basé à Wuppertal."
+    },
+    {
+      "q": "Quel est le prix ?",
+      "a": "Les prix dépendent du besoin et des intégrations. Contactez-nous pour en discuter et demander un devis."
+    },
+    {
+      "q": "Puis-je réserver un rendez-vous ?",
+      "a": "Vous pouvez demander un rendez-vous. Une réservation est confirmée uniquement après validation par le système connecté ou par l'équipe."
+    },
+    {
+      "q": "Un agent IA peut-il répondre aux clients ?",
+      "a": "Oui, un assistant peut être configuré pour traiter les questions courantes et transmettre les demandes complexes à un humain."
+    },
+    {
+      "q": "Est-ce conforme au RGPD ?",
+      "a": "La conformité dépend du cas d'usage. Nous ne garantissons pas une conformité automatique : une analyse et une validation adaptées sont nécessaires."
+    },
+    {
+      "q": "Comment contacter Fluxia ?",
+      "a": "Écrivez à fluxia@fluxia-consulting.company ou appelez le +49 1575 0625673."
+    }
+  ],
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "La page demandée n'existe pas.",
+    "cta": "Retour à l'accueil"
+  }
+}

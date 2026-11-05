@@ -1,0 +1,26 @@
+{
+  "company_name": "Fluxia Consulting",
+  "brand_logo_text": "Fluxia-consulting (logo original)",
+  "address": "Schönebecker Straße 44, 42283 Wuppertal, Allemagne",
+  "telephone_display": "+49 1575 0625673",
+  "telephone_e164": "+4915750625673",
+  "email": "fluxia@fluxia-consulting.company",
+  "website": "https://www.fluxia-consulting.company",
+  "contact_name": "Raoul Fotso",
+  "languages": [
+    "de",
+    "fr",
+    "en"
+  ],
+  "default_language": "de",
+  "service_countries": [
+    "Allemagne",
+    "France",
+    "Belgique",
+    "pays voisins (sur demande)"
+  ],
+  "pricing": "Sur devis, non communiqué",
+  "appointment_system": "À connecter et vérifier avant confirmation automatique",
+  "business_hours": "Non communiqués",
+  "registration_details": "À compléter et vérifier"
+}

@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fx-petrol: #176b80;
+  --fx-petrol-700: #135a6c;
+  --fx-night: #172b40;
+  --fx-night-700: #0f1f2e;
+  --fx-pale: #eaf4f5;
+  --fx-white: #ffffff;
+  --fx-text: #0b1a2a;
+  --fx-muted: #38495a;
+  --fx-border: #cddde0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--fx-white);
+  color: var(--fx-text);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    color: inherit;
+  }
+  h1 {
+    @apply text-3xl md:text-5xl font-bold tracking-tight;
+  }
+  h2 {
+    @apply text-2xl md:text-4xl font-semibold tracking-tight;
+  }
+  h3 {
+    @apply text-xl md:text-2xl font-semibold;
+  }
+  p {
+    @apply leading-relaxed;
+  }
+  a:focus-visible,
+  button:focus-visible,
+  [role="button"]:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    @apply outline-none ring-2 ring-petrol ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer components {
+  .fx-container {
+    @apply mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8;
+  }
+
+  .fx-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm md:text-base font-semibold transition-colors;
+  }
+  .fx-btn-primary {
+    @apply fx-btn bg-petrol text-white hover:bg-petrol-700;
+  }
+  .fx-btn-secondary {
+    @apply fx-btn bg-white text-night border border-line hover:bg-pale;
+  }
+  .fx-btn-ghost-light {
+    @apply fx-btn bg-transparent text-white border border-white/40 hover:bg-white/10;
+  }
+
+  .fx-card {
+    @apply rounded-card bg-white border border-line shadow-card p-6 transition duration-200 ease-out;
+  }
+  .fx-card-hover {
+    @apply hover:-translate-y-1 hover:border-petrol hover:shadow-float;
+  }
+  .fx-card-dark {
+    @apply rounded-card bg-night text-white border border-white/10 shadow-card p-6;
+  }
+  .fx-badge {
+    @apply inline-flex items-center rounded-full bg-pale text-petrol-700 px-3 py-1 text-xs font-semibold;
+  }
+  .fx-badge-dark {
+    @apply inline-flex items-center rounded-full bg-white/10 text-white px-3 py-1 text-xs font-semibold;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

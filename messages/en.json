@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "siteName": "Fluxia Consulting",
+    "tagline": "AI solutions and automation for small businesses"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "demos": "Demos",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book a call",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "languageLabel": "Language"
+  },
+  "common": {
+    "readMore": "Learn more",
+    "backHome": "Back to home",
+    "requestCall": "Request an introductory call",
+    "contactUs": "Contact us",
+    "demoLabel": "Example",
+    "draftLabel": "Draft — pending legal review",
+    "requiredField": "Required field",
+    "optional": "optional",
+    "loading": "Loading…",
+    "send": "Send",
+    "sending": "Sending…"
+  },
+  "home": {
+    "metaTitle": "Fluxia Consulting — AI, intelligent websites and automation for SMEs",
+    "metaDescription": "Fluxia Consulting builds intelligent websites, AI agents and automation for small and medium-sized businesses in Germany, France, Belgium and neighbouring countries.",
+    "hero": {
+      "badge": "AI solutions for small businesses",
+      "title": "Less busywork. More time for your business.",
+      "subtitle": "We automate customer enquiries, build intelligent websites and connect your business processes — clearly and practically.",
+      "ctaPrimary": "Request an introductory call",
+      "ctaSecondary": "Explore solutions",
+      "benefit1": "Quick to deploy",
+      "benefit2": "Data-conscious",
+      "benefit3": "Outcome-focused",
+      "sidePanelTitle": "What we do for you",
+      "sidePanel": [
+        "AI agents & customer service",
+        "Intelligent websites (incl. chatbot & booking)",
+        "Website redesign (modernisation & optimisation)",
+        "Automation (email, documents, processes)",
+        "Leads & customer reactivation (follow-up & reports)"
+      ]
+    },
+    "pillars": {
+      "title": "Our solutions for your business",
+      "subtitle": "Practical technologies that automate processes, serve customers and save time."
+    },
+    "solutionsHighlight": {
+      "title": "Five concrete automations",
+      "subtitle": "Start with a solution that solves a real daily problem."
+    },
+    "process": {
+      "title": "How we work",
+      "step1Title": "Introductory call",
+      "step1Desc": "We listen, understand your context and check what is realistic.",
+      "step2Title": "Scope & proposal",
+      "step2Desc": "A clear delivery plan, effort estimates and a plain-language quote.",
+      "step3Title": "Build & support",
+      "step3Desc": "We build, test and train — with clear ownership and handover."
+    },
+    "industries": {
+      "title": "Industries we understand",
+      "subtitle": "Examples of possible solutions — not a reference list."
+    },
+    "international": {
+      "title": "We're here for you — in Germany, France, Belgium and neighbouring countries.",
+      "point1": "Advice and delivery in German, French and English",
+      "point2": "On site or remotely",
+      "point3": "For micro, small, medium and growing businesses"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "cta": "Have a different question? Write to us."
+    },
+    "finalCta": {
+      "title": "Ready to shed the busywork?",
+      "subtitle": "Request a no-obligation introductory call. We get back to you quickly.",
+      "primary": "Request an introductory call",
+      "secondary": "Chat with the assistant"
+    }
+  },
+  "pillars": {
+    "intelligent-websites": {
+      "name": "Intelligent websites",
+      "short": "Modern websites with chatbot, forms and booking.",
+      "long": "We build professional, responsive websites that handle enquiries, take booking requests and talk to your tools — as soon as the integrations are in place.",
+      "problem": "A classic website is often just a shop window. Visitors rarely get in touch, enquiries get lost and manual replies take time.",
+      "solution": "Fluxia builds websites that answer visitors, qualify leads and prepare bookings — in your three market languages.",
+      "exampleTitle": "Example — Service provider",
+      "exampleBody": "A regional service provider replaces its contact form with an intelligent page featuring a chatbot and booking request. Fluxia sets up the questions, answers and routing rules.",
+      "steps": [
+        "Audience and key-question analysis",
+        "Design, build and connection to email or CRM",
+        "Test, training and ongoing optimisation"
+      ],
+      "limits": "Chatbot answers are based on your approved knowledge base. When uncertain, the conversation is handed off to a human."
+    },
+    "website-redesign": {
+      "name": "Website redesign",
+      "short": "Modernisation, mobile, performance, accessibility and SEO.",
+      "long": "We modernise existing websites: faster loading, clearer offerings, accessibility and a structure that reaches customers and search engines.",
+      "problem": "Old sites load slowly, are hard to use on mobile and no longer reflect your current offering.",
+      "solution": "We keep what works and replace what gets in the way. Fresh content, clear structure, modern technology.",
+      "exampleTitle": "Example — Tradesperson",
+      "exampleBody": "A tradesperson modernises their site, adds a photo gallery and a request form with call-back time, visible on mobile.",
+      "steps": [
+        "Audit of the existing website",
+        "New design, new content, technical build",
+        "Measuring results and adjusting"
+      ],
+      "limits": "Search rankings depend on many factors; we do not guarantee positions, but solid technical foundations."
+    },
+    "content-creation": {
+      "name": "Content & video",
+      "short": "Automated creation of copy, social posts and short videos.",
+      "long": "We support your regular content production for your website, newsletter or social channels. Every publication is approved by you.",
+      "problem": "Producing content regularly costs time you don't have in daily operations.",
+      "solution": "Workflows that draft copy, pick visuals and prepare short videos — with human approval before any publication.",
+      "exampleTitle": "Example — Restaurant",
+      "exampleBody": "A restaurant receives weekly draft posts about offers and opening hours; they only need to confirm.",
+      "steps": [
+        "Define topics, tone and cadence",
+        "Automated drafts and approval flow",
+        "Publication to chosen channels"
+      ],
+      "limits": "No content is published without your approval. We don't invent offers or prices."
+    },
+    "ai-agents": {
+      "name": "AI agents & reception",
+      "short": "Written and voice assistants available around the clock.",
+      "long": "Chat and voice assistants answer common questions, qualify enquiries and escalate to a human when things get sensitive.",
+      "problem": "Enquiries come in at night, on weekends or when you're on site. Many prospects don't wait.",
+      "solution": "An assistant captures the enquiry, answers standard questions and collects the information you need for your callback.",
+      "exampleTitle": "Example — Hotel",
+      "exampleBody": "A hotel automatically answers questions about rooms, breakfast and parking, and forwards booking enquiries to reception.",
+      "steps": [
+        "Build the knowledge base and rules",
+        "Integrate with the website and optionally the phone",
+        "Monitor, improve, human handover"
+      ],
+      "limits": "The assistant always identifies as AI. It doesn't quote unconfirmed prices or slots not verified by the booking system."
+    },
+    "business-automation": {
+      "name": "Business automation",
+      "short": "Emails, documents, orders, stock and reports — automated.",
+      "long": "We connect your tools and automate repetitive steps — from quote to invoice, from lead to follow-up.",
+      "problem": "Data gets re-keyed, emails are handled manually, reports are pieced together at month-end.",
+      "solution": "Fluxia identifies the bottlenecks and builds automations that make your existing tools talk to each other.",
+      "exampleTitle": "Example — Retailer",
+      "exampleBody": "A retailer receives a daily consolidated report on orders, stock and returns from their existing systems.",
+      "steps": [
+        "Process and tool inventory",
+        "Design, build, tests",
+        "Handover with documentation and training"
+      ],
+      "limits": "Automations depend on your existing tools and their interfaces. Not everything is technically or legally possible."
+    }
+  },
+  "solutions": {
+    "instant-lead-response": {
+      "name": "Instant lead response",
+      "short": "Acknowledge, qualify and route any new enquiry immediately.",
+      "long": "Every new enquiry gets an immediate acknowledgement. The assistant asks the right questions and passes the qualified enquiry to the right person.",
+      "problem": "Prospects compare providers in minutes. Whoever replies first often wins the job.",
+      "solution": "Automatic acknowledgement, structured follow-up questions and team notifications — 24/7, without promising human availability you can't deliver.",
+      "steps": [
+        "Capture the enquiry",
+        "Qualify and prioritise",
+        "Forward or prepare the booking"
+      ],
+      "limits": "The assistant answers only from approved information. Sensitive topics are handed to a human."
+    },
+    "document-processing": {
+      "name": "Document processing",
+      "short": "Extract, classify and prepare invoices and delivery notes for review.",
+      "long": "Documents are read automatically, data extracted, checked and prepared for human approval. Payments are never automatic.",
+      "problem": "Manually entering documents costs hours per week and causes errors.",
+      "solution": "Fluxia sets up a processing pipeline: scan or email → extraction → check → approval by your team.",
+      "steps": [
+        "Recognition and extraction",
+        "Matching against your data",
+        "Human approval and archiving"
+      ],
+      "limits": "No payment is triggered without human approval. Sensitive data is governed by your privacy policy."
+    },
+    "follow-up-sequences": {
+      "name": "Follow-up sequences",
+      "short": "Structured follow-up respecting consent and opt-out.",
+      "long": "Reminders, personalised follow-ups and CRM steps — with respect for consent and opt-out.",
+      "problem": "Many quotes go nowhere for lack of follow-up.",
+      "solution": "A follow-up process that saves time while respecting the legal rules.",
+      "steps": [
+        "Define the follow-up cadence",
+        "Prepare the messages",
+        "Send with monitoring and reporting"
+      ],
+      "limits": "Marketing messages are only sent to recipients legally allowed to receive them."
+    },
+    "customer-reactivation": {
+      "name": "Customer reactivation",
+      "short": "Segment inactive contacts and — where allowed — reactivate them.",
+      "long": "Analysis of your contact base, segmentation and preparation of tailored campaigns. Only with confirmed legal basis.",
+      "problem": "Many past customers don't return because the contact is lost.",
+      "solution": "We prepare campaigns that fit your data and your goals — respecting privacy.",
+      "steps": [
+        "Check the legal basis",
+        "Segment and craft the message",
+        "Send and measure results"
+      ],
+      "limits": "No campaign goes out without your approval and without checking consents."
+    },
+    "internal-reporting": {
+      "name": "Internal reporting",
+      "short": "Sales, stock, service — clear dashboards from your sources.",
+      "long": "Consolidation of your data into simple, reliable reports. Numbers computed deterministically; sources traceable.",
+      "problem": "Reports come together at month-end from spreadsheets and memory — error-prone.",
+      "solution": "Fluxia connects your sources and delivers up-to-date, comparable overviews.",
+      "steps": [
+        "Define sources and indicators",
+        "Automatic production and distribution",
+        "Adjust over time"
+      ],
+      "limits": "Dashboards are only as good as the quality of your source data."
+    }
+  },
+  "industries": {
+    "pageTitle": "Industries",
+    "intro": "For each industry we describe an example solution — not a customer reference.",
+    "restaurants": {
+      "name": "Restaurants",
+      "desc": "Online reservations, frequent-question answers, menu updates and reminders."
+    },
+    "hotels": {
+      "name": "Hotels",
+      "desc": "Availability requests, multilingual reception, pre- and post-stay care."
+    },
+    "trades": {
+      "name": "Trades",
+      "desc": "Qualify quote requests, schedule call-backs, follow through to invoicing."
+    },
+    "retail": {
+      "name": "Retail",
+      "desc": "Order and stock reports, complaint handling, customer notifications."
+    },
+    "services": {
+      "name": "Services",
+      "desc": "Appointment management, reminders, simple document generation."
+    },
+    "logistics": {
+      "name": "Logistics",
+      "desc": "Status updates, reporting, early detection of deviations."
+    }
+  },
+  "demos": {
+    "pageTitle": "Demonstrations",
+    "intro": "These demos show our solutions in action. Data and answers are synthetic.",
+    "chatTitle": "Chat assistant",
+    "chatDesc": "Our chatbot at the bottom right answers questions about Fluxia. All answers come from the published knowledge base.",
+    "leadsTitle": "Lead qualification",
+    "leadsDesc": "Example fields an assistant captures before a human takes over.",
+    "documentTitle": "Document extraction",
+    "documentDesc": "A synthetic document is read and the data displayed as structured fields — no real customer data.",
+    "reportTitle": "Short report",
+    "reportDesc": "An example report built from fictional sales and stock data.",
+    "disclaimer": "No demo sends a real message or triggers a real action."
+  },
+  "about": {
+    "pageTitle": "About Fluxia Consulting",
+    "intro": "Fluxia Consulting helps small and medium-sized businesses with digital transformation through AI, intelligent websites and automation.",
+    "missionTitle": "Our mission",
+    "mission": "Practical solutions that save you time — without false promises or jargon.",
+    "contactTitle": "Your contact",
+    "founder": "Contact",
+    "areaTitle": "Where we work",
+    "area": "Head office: Wuppertal, Germany. We work in Germany, France, Belgium and neighbouring countries — on site or remotely."
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "intro": "Describe your request in a few lines. We reply by email or phone.",
+    "fields": {
+      "name": "Full name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "sector": "Industry",
+      "service": "Service of interest",
+      "message": "Project description",
+      "preferredContact": "Preferred contact channel",
+      "consent": "I have read the privacy notice and agree to the processing of my data for the reply.",
+      "website": "Website (honeypot — leave blank)"
+    },
+    "services": {
+      "intelligent-websites": "Intelligent website",
+      "website-redesign": "Website redesign",
+      "ai-chat": "AI chatbot",
+      "ai-voice": "AI voice assistant",
+      "automation": "Automation",
+      "consulting": "AI consulting",
+      "other": "Other request"
+    },
+    "preferredContactOptions": {
+      "email": "Email",
+      "phone": "Phone",
+      "either": "Either"
+    },
+    "submit": "Send message",
+    "success": "Thank you! Your message has reached us.",
+    "errorGeneric": "Something went wrong. Please try again or email us directly.",
+    "demoWarning": "Demo mode: your message was captured in the server log but no email was sent. Set RESEND_API_KEY to enable real delivery.",
+    "altContact": "Or directly: {email} · {phone}"
+  },
+  "book": {
+    "pageTitle": "Book a call",
+    "intro": "No calendar is connected yet. We'll get back to you to confirm a slot.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "preferredDate": "Preferred date / time",
+      "topic": "Topic of the call",
+      "consent": "I agree to the processing of my data for the reply."
+    },
+    "submit": "Send request",
+    "success": "Thanks — we'll get back to you to confirm.",
+    "noticeNoCalendar": "Note: this is a request, not a confirmation. The appointment is only confirmed once we reply."
+  },
+  "legal": {
+    "impressumTitle": "Legal notice",
+    "privacyTitle": "Privacy policy",
+    "cookiesTitle": "Cookie preferences",
+    "draftNotice": "This text is a draft. Professional legal review is required before publication.",
+    "impressumBody": "Fluxia Consulting · Raoul Fotso · Schönebecker Straße 44, 42283 Wuppertal, Germany · Phone: +49 1575 0625673 · Email: fluxia@fluxia-consulting.company. VAT number, trade register and professional information are still to be added.",
+    "privacyBody": "We process personal data in accordance with the GDPR solely to respond to your enquiries. The full policy (legal basis, retention periods, processors such as the email service or chatbot provider, data subject rights) is being prepared and will be reviewed by a professional before publication.",
+    "cookiesBody": "This site uses no non-essential cookies. The AI voice assistant is only loaded after your explicit consent, because it involves an external service."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "legalNav": "Legal",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact"
+  },
+  "chat": {
+    "openLabel": "Open Fluxia assistant",
+    "closeLabel": "Close Fluxia assistant",
+    "title": "Fluxia Assistant",
+    "subtitle": "Chat & voice (DE / FR / EN)",
+    "placeholder": "Ask your question…",
+    "send": "Send",
+    "greeting": "Hello! I'm Fluxia Consulting's AI assistant. How can I help?",
+    "demoBadge": "Demo mode (FAQ)",
+    "liveBadge": "Live (AI)",
+    "errorFallback": "I'm unavailable right now. Please email fluxia@fluxia-consulting.company.",
+    "unknownAnswer": "I don't have the answer to that. Please contact us directly: fluxia@fluxia-consulting.company or +49 1575 0625673."
+  },
+  "voice": {
+    "button": "Talk to the assistant",
+    "unavailable": "Voice assistant not configured",
+    "consentTitle": "Enable the voice assistant",
+    "consentBody": "The voice assistant uses ElevenLabs, an external service. With your consent, we load the widget and request microphone access. You can switch back to text chat at any time.",
+    "accept": "Accept and start",
+    "decline": "Cancel"
+  },
+  "cookies": {
+    "bannerTitle": "Your consent",
+    "bannerBody": "This site only uses essential features. Your consent for the AI voice assistant is requested separately.",
+    "accept": "Got it",
+    "manage": "Manage preferences"
+  },
+  "faqs": [
+    {
+      "q": "What does Fluxia Consulting offer?",
+      "a": "Intelligent websites, website redesign, text and voice AI assistants, and business process automation."
+    },
+    {
+      "q": "Do you work with small businesses?",
+      "a": "Yes, especially microbusinesses, SMEs, trades, retailers, hospitality and service businesses."
+    },
+    {
+      "q": "Which countries do you serve?",
+      "a": "Germany, France and Belgium, plus neighbouring countries on request, including remotely. The contact location is Wuppertal."
+    },
+    {
+      "q": "How much does it cost?",
+      "a": "Pricing depends on scope and integrations. Please contact us for a tailored quote."
+    },
+    {
+      "q": "Can I book a meeting?",
+      "a": "You can request a meeting. It is confirmed only after the booking system or team confirms it."
+    },
+    {
+      "q": "Can an AI agent answer customer questions?",
+      "a": "Yes, it can be configured to handle common questions and escalate complex issues."
+    },
+    {
+      "q": "Is it GDPR compliant?",
+      "a": "Compliance depends on use case. It is not automatic; assessment and validation are required."
+    },
+    {
+      "q": "How can I contact Fluxia?",
+      "a": "Email fluxia@fluxia-consulting.company or call +49 1575 0625673."
+    }
+  ],
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you requested does not exist.",
+    "cta": "Back to home"
+  }
+}
