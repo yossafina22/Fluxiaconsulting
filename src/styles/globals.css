@@ -32,13 +32,16 @@ body {
     color: inherit;
   }
   h1 {
-    @apply text-3xl md:text-5xl font-bold tracking-tight;
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight;
+    letter-spacing: -0.03em;
   }
   h2 {
-    @apply text-2xl md:text-4xl font-semibold tracking-tight;
+    @apply text-3xl md:text-4xl font-semibold tracking-tight;
+    letter-spacing: -0.02em;
   }
   h3 {
     @apply text-xl md:text-2xl font-semibold;
+    letter-spacing: -0.01em;
   }
   p {
     @apply leading-relaxed;
@@ -63,6 +66,15 @@ body {
   }
   .fx-btn-primary {
     @apply fx-btn bg-petrol text-white hover:bg-petrol-700;
+    box-shadow: 0 1px 2px rgba(23, 107, 128, 0.2), 0 0 0 0 rgba(23, 107, 128, 0.4);
+    transition: box-shadow 220ms ease, background-color 220ms ease, transform 220ms ease;
+  }
+  .fx-btn-primary:hover {
+    box-shadow: 0 6px 18px rgba(23, 107, 128, 0.35), 0 0 0 4px rgba(23, 107, 128, 0.12);
+    transform: translateY(-1px);
+  }
+  .fx-btn-primary:active {
+    transform: translateY(0);
   }
   .fx-btn-secondary {
     @apply fx-btn bg-white text-night border border-line hover:bg-pale;
@@ -73,9 +85,17 @@ body {
 
   .fx-card {
     @apply rounded-card bg-white border border-line shadow-card p-6 transition duration-200 ease-out;
+    box-shadow:
+      0 1px 2px rgba(23, 43, 64, 0.04),
+      0 0 0 1px rgba(23, 43, 64, 0.04);
   }
   .fx-card-hover {
-    @apply hover:-translate-y-1 hover:border-petrol hover:shadow-float;
+    @apply hover:-translate-y-1 hover:border-petrol/60;
+  }
+  .fx-card-hover:hover {
+    box-shadow:
+      0 20px 40px -12px rgba(23, 107, 128, 0.15),
+      0 0 0 1px rgba(23, 107, 128, 0.2);
   }
   .fx-card-dark {
     @apply rounded-card bg-night text-white border border-white/10 shadow-card p-6;
@@ -100,6 +120,63 @@ elevenlabs-convai {
   transform-origin: bottom right;
 }
 
+/* Senior-polish utilities: grid background, noise, aurora, reveal, timeline. */
+
+.fx-grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.9), transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.9), transparent 70%);
+}
+
+.fx-noise {
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/></svg>");
+  opacity: 0.04;
+}
+
+.fx-aurora {
+  background:
+    radial-gradient(60% 50% at 20% 30%, rgba(23, 107, 128, 0.45) 0%, transparent 60%),
+    radial-gradient(50% 40% at 80% 70%, rgba(23, 107, 128, 0.35) 0%, transparent 60%),
+    radial-gradient(40% 30% at 50% 100%, rgba(234, 244, 245, 0.08) 0%, transparent 60%);
+  animation: fx-aurora-drift 18s ease-in-out infinite alternate;
+}
+
+@keyframes fx-aurora-drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(-3%, 2%, 0) scale(1.05);
+  }
+}
+
+.fx-reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: fx-reveal-in 600ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: var(--fx-reveal-delay, 0ms);
+}
+
+@keyframes fx-reveal-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fx-timeline-rail {
+  background-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(23, 107, 128, 0.3) 20%,
+    rgba(23, 107, 128, 0.3) 80%,
+    transparent 100%
+  );
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -108,5 +185,12 @@ elevenlabs-convai {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+  .fx-reveal {
+    opacity: 1;
+    transform: none;
+  }
+  .fx-aurora {
+    animation: none;
   }
 }

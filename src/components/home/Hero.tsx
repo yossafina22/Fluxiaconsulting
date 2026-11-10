@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Icon } from "../ui/Icon";
@@ -8,33 +9,44 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-night text-white">
-      <div aria-hidden className="pointer-events-none absolute inset-0 opacity-30">
-        <div className="absolute -top-20 -right-20 h-96 w-96 rounded-full bg-petrol/40 blur-3xl" />
-        <div className="absolute bottom-0 left-1/3 h-80 w-80 rounded-full bg-petrol/20 blur-3xl" />
-      </div>
-      <div className="fx-container relative grid gap-10 py-14 md:py-20 lg:grid-cols-[1.1fr_1fr] lg:items-center">
-        <div>
+      <div aria-hidden className="pointer-events-none absolute inset-0 fx-grid-bg" />
+      <div aria-hidden className="pointer-events-none absolute inset-0 fx-noise mix-blend-overlay" />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -top-40 right-[-20%] h-[600px] w-[600px] rounded-full bg-gradient-to-br from-petrol/30 via-petrol/10 to-transparent blur-3xl"
+      />
+      <div className="fx-container relative grid gap-12 py-16 md:py-24 lg:grid-cols-[1.15fr_1fr] lg:items-center">
+        <div className="fx-reveal">
           <span className="fx-badge-dark">
             <Icon name="Sparkles" size={14} className="mr-1" />
             {t("badge")}
           </span>
-          <h1 className="mt-5 text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl drop-shadow-sm">
+          <h1 className="mt-6 text-white">
             {t("title")}
           </h1>
-          <p className="mt-5 max-w-xl text-base text-white/80 md:text-lg">
+          <p className="mt-6 max-w-xl text-lg text-white/75 md:text-xl leading-relaxed">
             {t("subtitle")}
           </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/book" className="fx-btn-primary">
+          <div className="mt-10 flex flex-wrap gap-3">
+            <Link href="/book" className="fx-btn-primary group">
               <Icon name="CalendarCheck" size={18} />
               <span>{t("ctaPrimary")}</span>
+              <Icon
+                name="ArrowRight"
+                size={16}
+                className="transition-transform group-hover:translate-x-0.5"
+              />
             </Link>
-            <Link href="/services" className="fx-btn-ghost-light">
-              <Icon name="ChevronRight" size={18} />
+            <Link href="/services" className="fx-btn-ghost-light group">
               <span>{t("ctaSecondary")}</span>
+              <Icon
+                name="ChevronRight"
+                size={18}
+                className="transition-transform group-hover:translate-x-0.5"
+              />
             </Link>
           </div>
-          <ul className="mt-8 flex flex-wrap gap-4 text-sm text-white/80">
+          <ul className="mt-10 grid grid-cols-1 gap-3 border-t border-white/10 pt-6 sm:grid-cols-3 text-sm text-white/70">
             <li className="flex items-center gap-2">
               <Icon name="Zap" size={16} className="text-petrol-400" />
               {t("benefit1")}
@@ -52,23 +64,27 @@ export function Hero() {
 
         <aside
           aria-label={t("sidePanelTitle")}
-          className="rounded-card border border-white/15 bg-white/5 p-6 backdrop-blur"
+          className="fx-reveal relative rounded-2xl border border-white/10 bg-gradient-to-br from-white/[0.08] to-white/[0.02] p-7 backdrop-blur-xl shadow-2xl"
+          style={{ "--fx-reveal-delay": "160ms" } as CSSProperties}
         >
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-petrol-400">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-to-br from-petrol/10 via-transparent to-transparent opacity-50"
+          />
+          <h2 className="relative text-[11px] font-semibold uppercase tracking-[0.18em] text-petrol-400">
             {t("sidePanelTitle")}
           </h2>
-          <ul className="mt-4 space-y-3">
-            {sidePanel.map((item) => (
+          <ul className="relative mt-5 space-y-2.5">
+            {sidePanel.map((item, i) => (
               <li
                 key={item}
-                className="flex items-start gap-3 rounded-lg bg-white/5 p-3"
+                className="flex items-start gap-3 rounded-xl border border-white/5 bg-white/[0.03] p-3.5 transition-colors hover:bg-white/[0.06]"
+                style={{ "--fx-reveal-delay": `${240 + i * 60}ms` } as CSSProperties}
               >
-                <Icon
-                  name="Check"
-                  size={18}
-                  className="mt-0.5 flex-shrink-0 text-petrol-400"
-                />
-                <span className="text-sm text-white">{item}</span>
+                <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-petrol/20 text-petrol-400">
+                  <Icon name="Check" size={12} />
+                </span>
+                <span className="text-sm text-white/90">{item}</span>
               </li>
             ))}
           </ul>

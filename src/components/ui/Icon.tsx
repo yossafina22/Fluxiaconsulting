@@ -1,4 +1,5 @@
 import {
+  ArrowRight,
   BarChart3,
   BedDouble,
   Bot,
@@ -7,6 +8,7 @@ import {
   Check,
   ChevronDown,
   ChevronRight,
+  FileText,
   Film,
   FileSearch,
   Globe,
@@ -15,9 +17,11 @@ import {
   MapPin,
   Menu,
   Mic,
+  MessageCircle,
   MessageSquare,
   Phone,
   RefreshCw,
+  Rocket,
   Send,
   Settings,
   ShieldCheck,
@@ -33,6 +37,7 @@ import {
 } from "lucide-react";
 
 const registry: Record<string, LucideIcon> = {
+  ArrowRight,
   BarChart3,
   BedDouble,
   Bot,
@@ -41,6 +46,7 @@ const registry: Record<string, LucideIcon> = {
   Check,
   ChevronDown,
   ChevronRight,
+  FileText,
   Film,
   FileSearch,
   Globe,
@@ -49,9 +55,11 @@ const registry: Record<string, LucideIcon> = {
   MapPin,
   Menu,
   Mic,
+  MessageCircle,
   MessageSquare,
   Phone,
   RefreshCw,
+  Rocket,
   Send,
   Settings,
   ShieldCheck,
