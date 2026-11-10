@@ -82,7 +82,7 @@ export function ChatWidget() {
         type="button"
         onClick={() => setOpen(true)}
         aria-label={t("openLabel")}
-        className={`fixed bottom-6 right-6 z-40 flex items-center gap-2.5 rounded-full bg-petrol px-5 py-3.5 text-white shadow-float animate-pulseRing hover:bg-petrol-700 hover:scale-105 transition-transform ${
+        className={`fixed bottom-6 left-6 z-40 flex items-center gap-2.5 rounded-full bg-petrol px-5 py-3.5 text-white shadow-float animate-pulseRing hover:bg-petrol-700 hover:scale-105 transition-transform ${
           open ? "hidden" : ""
         }`}
       >
@@ -99,7 +99,7 @@ export function ChatWidget() {
           role="dialog"
           aria-label={t("title")}
           aria-modal="false"
-          className="fixed bottom-6 right-6 z-50 flex max-h-[80vh] w-[min(380px,calc(100vw-2rem))] flex-col overflow-hidden rounded-card border border-line bg-white shadow-float"
+          className="fixed bottom-6 left-6 z-50 flex max-h-[80vh] w-[min(380px,calc(100vw-2rem))] flex-col overflow-hidden rounded-card border border-line bg-white shadow-float"
         >
           <header className="flex items-center justify-between gap-3 bg-night p-4 text-white">
             <div>

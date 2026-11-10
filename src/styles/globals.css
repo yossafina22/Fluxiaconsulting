@@ -88,21 +88,6 @@ body {
   }
 }
 
-/* ElevenLabs Conversational AI widget — force bottom-left so it doesn't overlap the chat panel */
-elevenlabs-convai {
-  position: fixed !important;
-  bottom: 1.5rem !important;
-  left: 1.5rem !important;
-  right: auto !important;
-  z-index: 40 !important;
-}
-elevenlabs-convai::part(call-button-container),
-elevenlabs-convai::part(call-start-container),
-elevenlabs-convai::part(container) {
-  right: auto !important;
-  left: 0 !important;
-}
-
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
