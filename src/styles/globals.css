@@ -88,6 +88,12 @@ body {
   }
 }
 
+/* Hide the ElevenLabs voice widget while the chat panel is open, so its
+   auto-invitation popup doesn't cover the chat input on mobile. */
+body.fx-chat-open elevenlabs-convai {
+  display: none !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

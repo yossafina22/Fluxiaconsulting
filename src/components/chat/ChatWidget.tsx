@@ -38,6 +38,14 @@ export function ChatWidget() {
     }
   }, [open]);
 
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+    document.body.classList.toggle("fx-chat-open", open);
+    return () => {
+      document.body.classList.remove("fx-chat-open");
+    };
+  }, [open]);
+
   async function send() {
     const trimmed = input.trim();
     if (!trimmed || sending) return;
