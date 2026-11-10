@@ -326,10 +326,12 @@
       "name": "Name",
       "email": "E-Mail",
       "phone": "Telefon",
-      "preferredDate": "Gewünschtes Datum / Uhrzeit",
+      "preferredDate": "Gewünschtes Datum",
+      "preferredTime": "Uhrzeit",
       "topic": "Thema des Gesprächs",
       "consent": "Ich bin mit der Verarbeitung meiner Angaben zur Beantwortung einverstanden."
     },
+    "timezoneNote": "Zeiten in Europe/Berlin, Montag bis Freitag, 09:00–16:00 Uhr.",
     "submit": "Anfrage senden",
     "success": "Danke – wir melden uns zur Bestätigung.",
     "noticeNoCalendar": "Hinweis: Dies ist eine Anfrage, keine Bestätigung. Ein Termin ist erst bestätigt, nachdem wir Ihnen eine Rückmeldung geschickt haben."

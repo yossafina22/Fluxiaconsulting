@@ -326,10 +326,12 @@
       "name": "Name",
       "email": "Email",
       "phone": "Phone",
-      "preferredDate": "Preferred date / time",
+      "preferredDate": "Preferred date",
+      "preferredTime": "Time",
       "topic": "Topic of the call",
       "consent": "I agree to the processing of my data for the reply."
     },
+    "timezoneNote": "Times in Europe/Berlin, Monday to Friday, 9:00–16:00.",
     "submit": "Send request",
     "success": "Thanks — we'll get back to you to confirm.",
     "noticeNoCalendar": "Note: this is a request, not a confirmation. The appointment is only confirmed once we reply."

@@ -1,10 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useLocale, useTranslations } from "next-intl";
-import { bookSchema, type BookPayload } from "@/lib/validation/bookSchema";
+import {
+  bookSchema,
+  bookTimeSlots,
+  type BookPayload,
+} from "@/lib/validation/bookSchema";
 import type { Locale } from "@/i18n/routing";
 
 type S =
@@ -13,11 +17,26 @@ type S =
   | { status: "success"; mode: "live" | "demo" }
   | { status: "error" };
 
+function toYmd(d: Date) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
 export function BookRequestForm() {
   const t = useTranslations("book");
   const contact = useTranslations("contact");
   const locale = useLocale() as Locale;
   const [state, setState] = useState<S>({ status: "idle" });
+
+  const { minDate, maxDate } = useMemo(() => {
+    const now = new Date();
+    const min = new Date(now);
+    const max = new Date(now);
+    max.setDate(max.getDate() + 60);
+    return { minDate: toYmd(min), maxDate: toYmd(max) };
+  }, []);
 
   const {
     register,
@@ -31,6 +50,7 @@ export function BookRequestForm() {
       email: "",
       phone: "",
       preferredDate: "",
+      preferredTime: "09:00",
       topic: "",
       website: "",
       locale,
@@ -91,9 +111,25 @@ export function BookRequestForm() {
           <input className={cls} type="tel" autoComplete="tel" {...register("phone")} />
         </L>
         <L label={t("fields.preferredDate")} err={errors.preferredDate?.message}>
-          <input className={cls} {...register("preferredDate")} />
+          <input
+            className={cls}
+            type="date"
+            min={minDate}
+            max={maxDate}
+            {...register("preferredDate")}
+          />
+        </L>
+        <L label={t("fields.preferredTime")} err={errors.preferredTime?.message}>
+          <select className={cls} {...register("preferredTime")}>
+            {bookTimeSlots.map((slot) => (
+              <option key={slot} value={slot}>
+                {slot}
+              </option>
+            ))}
+          </select>
         </L>
       </div>
+      <p className="text-xs text-muted">{t("timezoneNote")}</p>
       <L label={t("fields.topic")} err={errors.topic?.message}>
         <textarea rows={4} className={cls} {...register("topic")} />
       </L>

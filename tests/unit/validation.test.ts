@@ -47,18 +47,59 @@ describe("contactSchema", () => {
   });
 });
 
+function nextWeekdayYmd(offsetDays = 7): string {
+  const d = new Date();
+  d.setDate(d.getDate() + offsetDays);
+  while (d.getDay() === 0 || d.getDay() === 6) {
+    d.setDate(d.getDate() + 1);
+  }
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
 describe("bookSchema", () => {
-  it("accepts a valid payload", () => {
+  it("accepts a valid payload with date and time slot", () => {
     const r = bookSchema.safeParse({
       name: "Jean",
       email: "jean@example.com",
-      preferredDate: "mardi matin",
+      preferredDate: nextWeekdayYmd(),
+      preferredTime: "10:00",
       topic: "Je souhaite discuter d'un projet de site.",
       consent: true,
       locale: "fr",
       website: "",
     });
     expect(r.success).toBe(true);
+  });
+
+  it("rejects a free-text date", () => {
+    const r = bookSchema.safeParse({
+      name: "Jean",
+      email: "jean@example.com",
+      preferredDate: "mardi matin",
+      preferredTime: "10:00",
+      topic: "Je souhaite discuter d'un projet.",
+      consent: true,
+      locale: "fr",
+      website: "",
+    });
+    expect(r.success).toBe(false);
+  });
+
+  it("rejects a time outside the 09:00–15:30 slots", () => {
+    const r = bookSchema.safeParse({
+      name: "Jean",
+      email: "jean@example.com",
+      preferredDate: nextWeekdayYmd(),
+      preferredTime: "17:00",
+      topic: "Je souhaite discuter d'un projet.",
+      consent: true,
+      locale: "fr",
+      website: "",
+    });
+    expect(r.success).toBe(false);
   });
 });
 

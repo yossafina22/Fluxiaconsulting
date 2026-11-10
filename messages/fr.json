@@ -326,10 +326,12 @@
       "name": "Nom",
       "email": "E-mail",
       "phone": "Téléphone",
-      "preferredDate": "Date / horaire souhaité",
+      "preferredDate": "Date souhaitée",
+      "preferredTime": "Horaire",
       "topic": "Sujet du rendez-vous",
       "consent": "J'accepte le traitement de mes données pour la réponse."
     },
+    "timezoneNote": "Heures en Europe/Berlin, du lundi au vendredi, de 9h00 à 16h00.",
     "submit": "Envoyer la demande",
     "success": "Merci — nous revenons vers vous pour confirmer.",
     "noticeNoCalendar": "Attention : il s'agit d'une demande, pas d'une confirmation. Le rendez-vous n'est confirmé qu'après notre réponse."

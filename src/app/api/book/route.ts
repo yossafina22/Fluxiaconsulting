@@ -38,16 +38,19 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: true, mode: "demo" }, { status: 200 });
   }
 
-  const subject = `[Fluxia] Demande de rendez-vous — ${data.name}`;
+  const subject = `[Fluxia] Demande de rendez-vous — ${data.name} — ${data.preferredDate} ${data.preferredTime}`;
   const text = [
     `Nom : ${data.name}`,
     `E-mail : ${data.email}`,
     data.phone ? `Téléphone : ${data.phone}` : null,
-    `Créneau souhaité : ${data.preferredDate}`,
+    `Date souhaitée : ${data.preferredDate} (Europe/Berlin)`,
+    `Heure souhaitée : ${data.preferredTime}`,
     `Langue : ${data.locale}`,
     "",
     "Sujet :",
     data.topic,
+    "",
+    "— Ceci est une demande, pas une confirmation. Merci de confirmer le créneau au demandeur.",
   ]
     .filter(Boolean)
     .join("\n");
