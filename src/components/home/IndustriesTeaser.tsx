@@ -69,9 +69,6 @@ export function IndustriesTeaser() {
             );
           })}
         </div>
-        <p className="mt-6 text-xs text-muted">
-          Photos: Unsplash
-        </p>
       </div>
     </section>
   );
