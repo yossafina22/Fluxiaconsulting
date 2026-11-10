@@ -41,6 +41,7 @@ export function ChatWidget() {
   useEffect(() => {
     if (typeof document === "undefined") return;
     document.body.classList.toggle("fx-chat-open", open);
+    window.dispatchEvent(new CustomEvent("fx-chat-toggle", { detail: { open } }));
     return () => {
       document.body.classList.remove("fx-chat-open");
     };

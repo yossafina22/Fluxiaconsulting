@@ -11,6 +11,7 @@ export function VoiceWidget({ agentId }: { agentId?: string | undefined }) {
   const [consentAsked, setConsentAsked] = useState(false);
   const [consented, setConsented] = useState(false);
   const [showUnavailable, setShowUnavailable] = useState(false);
+  const [chatOpen, setChatOpen] = useState(false);
   const configured = Boolean(agentId);
 
   useEffect(() => {
@@ -21,6 +22,15 @@ export function VoiceWidget({ agentId }: { agentId?: string | undefined }) {
     } catch {
       // ignore
     }
+  }, []);
+
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent<{ open: boolean }>).detail;
+      setChatOpen(Boolean(detail?.open));
+    };
+    window.addEventListener("fx-chat-toggle", handler);
+    return () => window.removeEventListener("fx-chat-toggle", handler);
   }, []);
 
   useEffect(() => {
@@ -60,7 +70,9 @@ export function VoiceWidget({ agentId }: { agentId?: string | undefined }) {
       <button
         type="button"
         onClick={handleClick}
-        className="fixed bottom-6 right-6 z-40 flex items-center gap-2 rounded-full bg-white border border-line p-3 sm:px-4 sm:py-3 text-sm font-semibold text-night shadow-float hover:bg-pale hover:scale-105 transition-transform"
+        className={`fixed bottom-6 right-6 z-40 flex items-center gap-2 rounded-full bg-white border border-line p-3 sm:px-4 sm:py-3 text-sm font-semibold text-night shadow-float hover:bg-pale hover:scale-105 transition-transform ${
+          chatOpen ? "hidden" : ""
+        }`}
         aria-label={t("button")}
       >
         <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-pale text-petrol">
@@ -134,6 +146,7 @@ export function VoiceWidget({ agentId }: { agentId?: string | undefined }) {
 
       {consented &&
         configured &&
+        !chatOpen &&
         createElement("elevenlabs-convai" as unknown as "div", {
           "agent-id": agentId,
         })}
