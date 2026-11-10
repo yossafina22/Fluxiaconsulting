@@ -34,6 +34,9 @@ export default async function ImpressumPage({
         {t("draftNotice")}
       </div>
       <p className="mt-6 whitespace-pre-line text-ink">{t("impressumBody")}</p>
+      <p className="mt-10 text-[10px] text-muted">
+        Bildmaterial: Unsplash (Lizenz)
+      </p>
     </section>
   );
 }
