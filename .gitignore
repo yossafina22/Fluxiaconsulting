@@ -30,3 +30,6 @@ test-results/
 # OS
 .DS_Store
 Thumbs.db
+
+# session snapshots (local only, per global rules)
+.handoff/
