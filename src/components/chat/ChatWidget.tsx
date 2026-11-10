@@ -82,14 +82,14 @@ export function ChatWidget() {
         type="button"
         onClick={() => setOpen(true)}
         aria-label={t("openLabel")}
-        className={`fixed bottom-6 left-6 z-40 flex items-center gap-2.5 rounded-full bg-petrol px-5 py-3.5 text-white shadow-float animate-pulseRing hover:bg-petrol-700 hover:scale-105 transition-transform ${
+        className={`fixed bottom-6 left-6 z-40 flex items-center gap-2.5 rounded-full bg-petrol p-3.5 sm:px-5 sm:py-3.5 text-white shadow-float animate-pulseRing hover:bg-petrol-700 hover:scale-105 transition-transform ${
           open ? "hidden" : ""
         }`}
       >
         <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-white/15">
           <Icon name="MessageSquare" size={16} />
         </span>
-        <span className="text-sm font-semibold whitespace-nowrap">
+        <span className="hidden sm:inline text-sm font-semibold whitespace-nowrap">
           {t("title")}
         </span>
       </button>

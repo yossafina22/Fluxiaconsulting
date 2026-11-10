@@ -60,7 +60,7 @@ export function VoiceWidget({ agentId }: { agentId?: string | undefined }) {
       <button
         type="button"
         onClick={handleClick}
-        className="fixed bottom-6 right-6 z-40 flex items-center gap-2 rounded-full bg-white border border-line px-4 py-3 text-sm font-semibold text-night shadow-float hover:bg-pale hover:scale-105 transition-transform"
+        className="fixed bottom-6 right-6 z-40 flex items-center gap-2 rounded-full bg-white border border-line p-3 sm:px-4 sm:py-3 text-sm font-semibold text-night shadow-float hover:bg-pale hover:scale-105 transition-transform"
         aria-label={t("button")}
       >
         <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-pale text-petrol">
@@ -72,7 +72,7 @@ export function VoiceWidget({ agentId }: { agentId?: string | undefined }) {
             />
           )}
         </span>
-        <span className="whitespace-nowrap">{t("button")}</span>
+        <span className="hidden sm:inline whitespace-nowrap">{t("button")}</span>
       </button>
 
       {showUnavailable && (
