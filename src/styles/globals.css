@@ -94,6 +94,12 @@ body.fx-chat-open elevenlabs-convai {
   display: none !important;
 }
 
+/* Scale down the ElevenLabs widget — bottom-right anchor keeps it in place. */
+elevenlabs-convai {
+  transform: scale(0.8);
+  transform-origin: bottom right;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
