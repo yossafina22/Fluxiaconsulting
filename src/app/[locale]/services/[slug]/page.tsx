@@ -66,11 +66,11 @@ export default async function PillarPage({
       <section className="fx-container grid gap-10 py-14 md:py-20 lg:grid-cols-3">
         <div className="space-y-6 lg:col-span-2">
           <div>
-            <h2 className="text-xl font-semibold text-night">Problem</h2>
+            <h2 className="text-xl font-semibold text-night">{common("sectionProblem")}</h2>
             <p className="mt-2 text-ink">{t("problem")}</p>
           </div>
           <div>
-            <h2 className="text-xl font-semibold text-night">Solution</h2>
+            <h2 className="text-xl font-semibold text-night">{common("sectionSolution")}</h2>
             <p className="mt-2 text-ink">{t("solution")}</p>
           </div>
           <div>
@@ -83,7 +83,7 @@ export default async function PillarPage({
             </p>
           </div>
           <div>
-            <h2 className="text-xl font-semibold text-night">Steps</h2>
+            <h2 className="text-xl font-semibold text-night">{common("sectionSteps")}</h2>
             <ol className="mt-2 list-decimal space-y-2 pl-6 text-ink">
               {steps.map((s) => (
                 <li key={s}>{s}</li>
@@ -92,7 +92,7 @@ export default async function PillarPage({
           </div>
         </div>
         <aside className="fx-card self-start">
-          <h3 className="text-base font-semibold text-night">Limits</h3>
+          <h3 className="text-base font-semibold text-night">{common("sectionLimits")}</h3>
           <p className="mt-2 text-sm text-muted">{t("limits")}</p>
           <div className="mt-6 flex flex-col gap-2">
             <Link href="/book" className="fx-btn-primary">
