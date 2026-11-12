@@ -26,6 +26,9 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
+  outputFileTracingIncludes: {
+    "/api/chat": ["./knowledge/**/*"],
+  },
   async headers() {
     return [
       {
