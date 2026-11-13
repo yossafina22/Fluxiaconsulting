@@ -1,17 +1,8 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { industrySlugs, industryIcons, type IndustrySlug } from "@/data/industries";
+import { industrySlugs, industryIcons, industryImages } from "@/data/industries";
 import { Icon } from "../ui/Icon";
-
-const industryImages: Record<IndustrySlug, string> = {
-  restaurants: "/images/restaurant.jpg",
-  hotels: "/images/hotel.jpg",
-  trades: "/images/Artisan.jpg",
-  retail: "/images/retail.jpg",
-  services: "/images/sectorpro.jpg",
-  logistics: "/images/logistic.jpg",
-};
 
 export function IndustriesTeaser() {
   const section = useTranslations("home.industries");
